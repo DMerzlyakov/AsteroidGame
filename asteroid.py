@@ -81,12 +81,12 @@ class AsteroidGenerator(object):
 
             if _pos == None:
                 pos = Vector2D(random.randint(0, self.screen.get_width()),
-                               random.randint(0, self.screen.get_height() / 2))
+                               random.randint(0, self.screen.get_height() / 3))
             else:
                 pos = Vector2D(_pos.x, _pos.y)
 
             asteroid = Asteroid(self.screen, pos, size, vert_count)
-            asteroid.set_velocity(Vector2D(random.randint(1, 3), random.randint(1, 3)))
+            asteroid.set_velocity(Vector2D(random.randint(1, 2), random.randint(1, 2)))
             asteroid.type = type
             self.asteroids.append(asteroid)
         # print('Asteroid generated in possition ' + str(asteroid.pos.x) + ', ' + str(asteroid.pos.y))

@@ -13,14 +13,14 @@ FPS = 60
 
 pygame.init()
 display = pygame.display.set_mode((D_WIDTH, D_HEIGHT))
-pygame.display.set_caption('Pysteroids')
+pygame.display.set_caption('Asteroids')
 clock = pygame.time.Clock()
 pygame.mouse.set_visible(True)
 
 # Entities initialization
-ship = Ship(D_WIDTH / 2, D_HEIGHT - (D_HEIGHT / 4), display)
+ship = Ship(D_WIDTH / 2, D_HEIGHT - D_HEIGHT / 6, display)
 ag = AsteroidGenerator(display)
-ag.generate(4)
+ag.generate(6)
 cd = CollisionDetector(ship, ag, ship.projectiles)
 
 playing = True

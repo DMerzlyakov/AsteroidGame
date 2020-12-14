@@ -24,6 +24,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../-Arkanoid-Game" />
     <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
   </component>
   <component name="RecentsManager">
@@ -32,7 +33,29 @@
       <recent name="C:\Users\merzl\OneDrive - ФГОБУ ВО Финансовый университет при Правительстве РФ\AsteroidGame\.idea" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.asteroids">
+    <configuration name="asteroid" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="AsteroidGame" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/asteroid.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="asteroids" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="AsteroidGame" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -58,6 +81,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.asteroids" />
+        <item itemvalue="Python.asteroid" />
       </list>
     </recent_temporary>
   </component>
@@ -71,7 +95,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607936469426</updated>
-      <workItem from="1607936470549" duration="4304000" />
+      <workItem from="1607936470549" duration="5782000" />
+      <workItem from="1607954553664" duration="4639000" />
     </task>
     <servers />
   </component>
@@ -79,24 +104,29 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1607940822415">
+    <state x="740" y="295" key="FileChooserDialogImpl" timestamp="1607956129126">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1607940822415" />
-    <state width="1877" height="295" key="GridCell.Tab.0.center" timestamp="1607940822415">
+    <state x="740" y="295" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1607956129126" />
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1607959173900">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1607940822415" />
-    <state width="1877" height="295" key="GridCell.Tab.0.left" timestamp="1607940822415">
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1607959173900" />
+    <state width="1877" height="295" key="GridCell.Tab.0.center" timestamp="1607959173900">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1607940822415" />
-    <state width="1877" height="295" key="GridCell.Tab.0.right" timestamp="1607940822415">
+    <state width="1877" height="295" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1607959173900" />
+    <state width="1877" height="295" key="GridCell.Tab.0.left" timestamp="1607959173900">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1607940822415" />
+    <state width="1877" height="295" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1607959173900" />
+    <state width="1877" height="295" key="GridCell.Tab.0.right" timestamp="1607959173900">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="295" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1607959173900" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/AsteroidGame$asteroids.coverage" NAME="asteroids Coverage Results" MODIFIED="1607940822400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AsteroidGame$asteroid.coverage" NAME="asteroid Coverage Results" MODIFIED="1607954899461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/AsteroidGame$asteroids.coverage" NAME="asteroids Coverage Results" MODIFIED="1607959173893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
